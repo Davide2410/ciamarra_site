@@ -1,0 +1,208 @@
+/* IMPOSTAZIONI DI BASE */
+:root{
+    --main:  #212121;
+    --sec: #F8F9FA;
+    --acc: #292929;
+   
+}
+
+h1, h2, h3, h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-main{
+    color: var(--main);
+}
+.bg-main{
+    background-color: var(--main);
+}
+.border-main{
+    color:1px solid var(--main);
+}
+
+
+.text-sec{
+    color: var(--sec);
+}
+.bg-sec{
+    background-color: var(--sec);
+}
+.border-sec{
+    color:1px solid var(--sec);
+}
+
+
+.text-acc{
+    color: var(--acc);
+}
+.bg-acc{
+    background-color: var(--acc);
+}
+.border-acc{
+    color:1px solid var(--acc);
+}
+/* FINE IMPOSTAZIONI DI BASE */
+
+/* BOTTONI */
+.btn-1{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(41, 41, 41,0.8);
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+
+
+/*FINE BOTTONI */
+
+
+/* INIZIO NAVBAR */
+
+.bg-light{
+    height: 100px;
+    background-color: white !important;
+}
+
+.navbar-collapse{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+
+.navbar-nav a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .navbar-nav a::before {
+    width:0%;
+    height:2px;
+    display:block;
+    background-color: var(--acc) !important;
+    margin-bottom:10px;
+    content:'';
+  }
+  .navbar-nav a:hover::before {
+    width:100%;
+    transition: 0.5s;
+  }
+
+  .nav-link:hover{
+    color:  var(--acc) !important;
+    transition: 0.5s;
+  }
+
+/* FINE NAVBAR */
+
+/* CONTAINER MENU */
+
+.menu{
+  background-image: url('./food/food-5.jpg');
+  height: 350px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(40%);
+  margin-top: 100px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 10px 12px;
+}
+.menu h1{
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  font-size: 60px;
+}
+
+.logo{
+    height: 90px;
+    width: 300px;
+}
+.marmo{
+    background-image: url('./ciamy/tavolo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 50px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.container-delivery{
+  height: fit-content;
+  width: fit-content;
+}
+
+
+
+.img-size{
+  height: 110px;
+  width: 200px;
+}
+
+
+h2{
+    border-bottom: 5px solid white;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    margin-right: 20px;
+    border: 2px solid white;
+  }
+
+  .swiper-slide img{
+    height:150px;
+  }
+
+  .swiper-slide:nth-child(1n) {
+    background-color: #292929;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    background-color: #292929;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    background-color: #292929;
+
+  }
+
+  .swiper-slide:nth-child(4n) {
+    background-color: #292929;
+  }
+
+  .swiper-slide:nth-child(5n) {
+    background-color: #292929;
+  }
+
+  
+/*FINE CONTAINER MENU */
+

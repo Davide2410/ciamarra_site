@@ -1,0 +1,369 @@
+/* IMPOSTAZIONI DI BASE */
+:root{
+    --main:#212121;
+    --sec: #F8F9FA;
+    --acc: #292929;  
+}
+
+h1, h2, h3, h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-main{
+    color: var(--main);
+}
+.bg-main{
+    background-color: var(--main);
+}
+.border-main{
+    color:1px solid var(--main);
+}
+
+
+.text-sec{
+    color: var(--sec);
+}
+.bg-sec{
+    background-color: var(--sec);
+}
+.border-sec{
+    color:1px solid var(--sec);
+}
+
+
+.text-acc{
+    color: var(--acc);
+}
+.bg-acc{
+    background-color: var(--acc);
+}
+.border-acc{
+    color:1px solid var(--acc);
+}
+
+/* FINE IMPOSTAZIONI DI BASE */
+
+/* BOTTONI */
+.btn-1{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(41, 41, 41,0.8);
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+/*FINE BOTTONI */
+
+
+/* INIZIO NAVBAR */
+.bg-light{
+    height: 100px;
+    background-color: white !important;
+}
+
+.navbar-collapse{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+
+.navbar-nav a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .navbar-nav a::before {
+    width:0%;
+    height:2px;
+    display:block;
+    background-color: var(--acc) !important;
+    margin-bottom:10px;
+    content:'';
+  }
+  .navbar-nav a:hover::before {
+    width:100%;
+    transition: 0.5s;
+  }
+
+  .nav-link:hover{
+    color:  var(--acc) !important;
+    transition: 0.5s;
+  }
+/* FINE NAVBAR */
+
+/* CONTAINER WINE */
+.container-wine{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.wine{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 50%;
+}
+.sfondo-giap{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+}
+.wine h1{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.wine button{
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+}
+
+.img-size{
+    height: 300px;
+    position: absolute;
+}
+
+.img-1{
+    top: 5%;
+    right: 0%;
+}
+
+.img-2{
+    bottom: 0%;
+    left: 10%;
+}
+
+.close{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.wine-images{
+    height: 100%;
+    width: 50%;
+    right: 0;
+    position: absolute;
+    background-image: url('./vine/botti.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.red-white{
+    height: 150px;
+}
+.logo{
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    width: 70%;
+}
+
+/* FINE CONTAINER WINE */
+
+
+/* CONTAINER COCKTAIL */
+.container-cocktail{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.cocktail-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./ciamy/marmo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+}
+
+.cocktail-img h1{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.cock-1{
+    position: absolute;
+    bottom: -4%;
+    right: 0%;
+    height: 300px;
+}
+
+.size{
+    position: absolute;
+    bottom: -0%;
+    left: 35.5%;
+    height: 500px;
+
+}
+
+
+.cocktail-img .btn-1{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.close__2{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.cocktail__img{
+    height: 150px;
+}
+/* FINE CONTAINER COCKTAIL */
+
+
+
+
+/* FINE CONTAINER DRINKS */
+.container-drinks{
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.whisky-contain{
+    position: absolute;
+    height: 100%;
+    width: 33.3%;
+    background-image: url('./sfondo/beach-1868280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.whisky{
+    height: 400px;
+    width: 100%;
+    background-image: url('./no-sfondo/vino-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.whisky-contain .btn-1{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+}
+
+.close__3{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.rum-contain{
+    position: absolute;
+    top: 0;
+    left: 35%;
+    height: 100%;
+    width: 33.3%;
+    border: 1px solid black;
+    background-image: url('./sfondo/venezuela-2696937.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.rum{
+    height: 600px;
+    width: 100%;
+    background-image: url('./no-sfondo/rum.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(40%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.rum-contain .btn-1{
+    position: absolute;
+    bottom: 2%;
+}
+.rum-contain h1{
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+}
+
+.close__4{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.gin-contain{
+    position: absolute;
+    top: 0;
+    left: 70%;
+    height: 100%;
+    width: 33.3%;
+    border: 1px solid black;
+    background-image: url('./sfondo/wood-1759566_1920.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gin{
+    height: 600px;
+    width: 100%;
+    background-image: url('./no-sfondo/gin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.gin-contain .btn-1{
+    position: absolute;
+    top: 10%;
+}
+.gin-contain h1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.close__5{
+    font-size: 35px;
+    cursor: pointer;
+}
+/* FINE CONTAINER DRINKS */

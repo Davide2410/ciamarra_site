@@ -1,0 +1,298 @@
+/* IMPOSTAZIONI DI BASE */
+:root{
+    --main:#212121;
+    --sec: #F8F9FA;
+    --acc: #292929;  
+}
+
+h1, h2, h3, h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-main{
+    color: var(--main);
+}
+.bg-main{
+    background-color: var(--main);
+}
+.border-main{
+    color:1px solid var(--main);
+}
+
+
+.text-sec{
+    color: var(--sec);
+}
+.bg-sec{
+    background-color: var(--sec);
+}
+.border-sec{
+    color:1px solid var(--sec);
+}
+
+
+.text-acc{
+    color: var(--acc);
+}
+.bg-acc{
+    background-color: var(--acc);
+}
+.border-acc{
+    color:1px solid var(--acc);
+}
+
+/* FINE IMPOSTAZIONI DI BASE */
+
+/* BOTTONI */
+.btn-1{
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(41, 41, 41,0.8);
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+/*FINE BOTTONI */
+
+
+/* INIZIO NAVBAR */
+.bg-light{
+    height: 100px;
+    background-color: white !important;
+}
+
+.navbar-collapse{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+
+.navbar-nav a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .navbar-nav a::before {
+    width:0%;
+    height:2px;
+    display:block;
+    background-color: var(--acc) !important;
+    margin-bottom:10px;
+    content:'';
+  }
+  .navbar-nav a:hover::before {
+    width:100%;
+    transition: 0.5s;
+  }
+
+  .nav-link:hover{
+    color:  var(--acc) !important;
+    transition: 0.5s;
+  }
+/* FINE NAVBAR */
+
+/* CONTAINER RESTURANT */
+
+
+
+/* FINE CONTAINER RESTURANT */
+
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-image: url('./ciamy/abstract-1850424.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* filter: grayscale(50%); */
+    
+}
+
+/* 1* BLOCC0 */
+.container-resturant{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+}
+
+.resturant{
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('./food/grano.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-white{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 80%;
+    width: 55%;
+    background-color: rgb(211, 211, 211,0.5);
+}
+
+
+
+.giap-2{
+    position: absolute;
+    height: 400px;
+    right: -30%;
+    bottom: -50%;
+    z-index: 1;
+}
+
+.container-logo{
+    height: 500px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo__ciamy{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 400px;
+}
+
+/* FINE 1* BLOCC0 */
+
+/* 2* BLOCC0 */
+
+.container-owners{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.white-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('./ciamy/marble-2398946.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    width: 50%;
+}
+
+.owners{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url('./ciamy/ciamm.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* FINE 2* BLOCC0 */
+
+/* 3* BLOCC0 */
+.container-chef{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.contain-chef{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 600px;
+    width: 50%;
+    background-image: url('./ciamy/italian-cuisine-2378729.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container-white__2{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 60%;
+    width: 55%;
+    background-color: rgb(211, 211, 211,0.5);
+}
+
+.giap-1{
+    position: absolute;
+    left: 10%;
+    bottom: 85%;
+    height: 200px;
+}
+
+/* FINE 3* BLOCC0 */
+
+
+/* 4* BLOCC0 */
+.chef{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+
+.white-img__2{
+    height: 400px;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('./ciamy/backdrop-874452.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.chef-img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('./food/marco.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+}
+
+.giap-3{
+    height: 400px;
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+}
+
+/* FINE 4* BLOCC0 */
